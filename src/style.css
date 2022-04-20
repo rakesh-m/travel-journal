@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* margin: 1em; */
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    width: 50%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    font-size: 1em;
+    background: #F55A5A;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
+
+nav img {
+    margin-right: 7px;
+}
+
+.travel--card {
+    height: 168px;
+    width: 470px;
+    border: 1px solid black;
+}
