@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    /* margin: 1em; */
     font-family: 'Inter', sans-serif;
 }
 
@@ -32,13 +31,50 @@ nav img {
 }
 
 .travel--card {
+    margin: 18px 40px;
+    display: flex;
+    flex-direction: row;
     height: 168px;
     width: 470px;
-    /* border: 1px solid black; */
+}
+
+.card--country {
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
 }
 
 .travel--card img {
+    border-radius: 5px;
     width: 126px;
     height: 168px;
     border: 1px solid black;
+    object-fit: cover;
+}
+
+.card--data {
+    margin-left: 19px;
+}
+
+.card--data h1 {
+    font-size: 1.5em;
+    margin-top: 7px;
+    margin-bottom: 16px;
+}
+
+.card--data h3 {
+    font-size: 0.6em;
+}
+
+.card--data .card--content {
+    margin-top: 9px;
+    font-weight: 400;
+    font-size: 0.6em;
+    /* font-style: normal; */
+}
+
+.maps--text {
+    color: #918E9B;
+    font-size: 0.6rem;
+    margin-left: 12px;
+    text-decoration: none;
 }
