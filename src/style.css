@@ -4,12 +4,16 @@
     font-family: 'Inter', sans-serif;
 }
 
-body {
-    box-sizing: border-box;
-    width: 50%;
-    border: 1px solid black;
+.App {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+
+body {
+    box-sizing: border-box;
+    border: 1px solid black;
+    max-width: 704px;
 }
 
 nav {
@@ -21,21 +25,22 @@ nav {
 }
 
 nav img {
-    margin-right: 7px;
+    margin-right: 0.5rem;
 }
 
 .travel--cards {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 1.5rem;
 }
 
 .travel--card {
-    margin: 18px 40px;
+    margin: 1rem 2.5rem;
     display: flex;
     flex-direction: row;
-    height: 168px;
-    width: 470px;
+    height: 10.5rem;
+    width: 100%;
 }
 
 .card--country {
@@ -45,20 +50,19 @@ nav img {
 
 .travel--card img {
     border-radius: 5px;
-    width: 126px;
-    height: 168px;
-    /* border: 1px solid black; */
+    width: 8rem;
+    height: 10.5rem;
     object-fit: cover;
 }
 
 .card--data {
-    margin-left: 19px;
+    margin-left: 1.2rem;
 }
 
 .card--data h1 {
     font-size: 1.5em;
-    margin-top: 7px;
-    margin-bottom: 16px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .card--data h3 {
@@ -66,16 +70,15 @@ nav img {
 }
 
 .card--data .card--content {
-    margin-top: 9px;
+    margin-top: 0.5rem;
     font-weight: 400;
     font-size: 0.6em;
     line-height: 150%;
-    /* font-style: normal; */
 }
 
 .maps--text {
     color: #918E9B;
     font-size: 0.6rem;
-    margin-left: 12px;
+    margin-left: 0.75rem;
     text-decoration-line: underline;
 }

@@ -30,7 +30,7 @@ export default function TravelCard(props)
                 <p className="card--content">
                     {props.dest.content}
                 </p>
-                <hr/>
+                {/* <hr/> */}
             </div>
         </div>
     )

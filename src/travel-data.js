@@ -9,7 +9,7 @@ export default [
         content: `The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the 20th century's most famous and distinctive buildings`
     },
     {
-        title: 'Goa',
+        title: 'Taj Mahal',
         photo: 'tajmahal.jpeg',
         country: 'India',
         start_date: '23 Jan, 2016',
