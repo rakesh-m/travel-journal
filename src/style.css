@@ -13,7 +13,7 @@
 body {
     box-sizing: border-box;
     border: 1px solid black;
-    max-width: 704px;
+    max-width: 550px;
 }
 
 nav {
@@ -32,15 +32,25 @@ nav img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 1.5rem;
+    margin: 0 2.5rem;
 }
 
 .travel--card {
-    margin: 1rem 2.5rem;
+    margin: 1rem 0;
     display: flex;
     flex-direction: row;
     height: 10.5rem;
     width: 100%;
+}
+
+.hr {
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.pin {
+    width: 7px;
+    height: 9px;
+    overflow: hidden;
 }
 
 .card--country {
@@ -63,6 +73,8 @@ nav img {
     font-size: 1.5em;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .card--data h3 {
@@ -74,6 +86,7 @@ nav img {
     font-weight: 400;
     font-size: 0.6em;
     line-height: 150%;
+    font-style: normal;
 }
 
 .maps--text {
@@ -81,4 +94,5 @@ nav img {
     font-size: 0.6rem;
     margin-left: 0.75rem;
     text-decoration-line: underline;
+    letter-spacing: normal;
 }

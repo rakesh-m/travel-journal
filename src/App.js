@@ -5,7 +5,9 @@ import globe from './images/globe.svg'
 
 function App() {
   const travelCards = traveldata.map(dest =>
-    <TravelCard dest={dest} />
+    <div className='card'>
+        <TravelCard dest={dest} /><div className='hr' />
+    </div>
   )
 
   return (

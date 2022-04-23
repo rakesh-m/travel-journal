@@ -14,16 +14,16 @@ export default [
         country: 'India',
         start_date: '23 Jan, 2016',
         end_date: '26 Jan, 2016',
-        location: 'https://goo.gl/maps/xUSKCnaRztFU7b4x5',
+        location: 'https://goo.gl/maps/jx7H7jAePVfvijzd6',
         content: `The Taj Mahal is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the 20th century's most famous and distinctive buildings`
     },
     {
-        country: 'India',
-        photo: 'rishikesh.jpg',
-        title: 'Bangalore',
-        start_date: '12 Oct, 2010',
-        end_date: '08 Dec, 2013',
-        location: 'https://goo.gl/maps/xUSKCnaRztFU7b4x5',
+        country: 'Italy',
+        photo: 'collosseum.jpeg',
+        title: 'Collosseum',
+        start_date: '01 May, 2019',
+        end_date: '03 May, 2019',
+        location: 'https://goo.gl/maps/VV6TkK71FERpEbqVA',
         content: `The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the 20th century's most famous and distinctive buildings`
     }
 ]

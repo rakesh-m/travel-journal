@@ -16,12 +16,11 @@ export default function TravelCard(props)
     return (
         <div className="travel--card">
             <img src={images[props.dest.photo]} alt={props.dest.photo}/>
-            {/* <img src={images} alt={props.dest.photo}/> */}
             <div className="card--data">
                 <div className="card--country">
-                    {/* <span> */}
-                        {/* <img src={location} alt='Location'/> */}
-                    {/* </span> */}
+                    <span>
+                        {/* <img src={location} alt='Location' className='pin'/> */}
+                    </span>
                     {props.dest.country.toUpperCase()}
                     <span><a href={props.dest.location} target='_blank' className="maps--text">View on Google Maps</a></span>
                 </div>
@@ -30,7 +29,6 @@ export default function TravelCard(props)
                 <p className="card--content">
                     {props.dest.content}
                 </p>
-                {/* <hr/> */}
             </div>
         </div>
     )
