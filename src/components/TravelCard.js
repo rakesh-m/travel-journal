@@ -1,3 +1,5 @@
+import location from '../images/location.svg'
+
 function importAll(r)
 {
     let images = {};
@@ -17,6 +19,9 @@ export default function TravelCard(props)
             {/* <img src={images} alt={props.dest.photo}/> */}
             <div className="card--data">
                 <div className="card--country">
+                    {/* <span> */}
+                        {/* <img src={location} alt='Location'/> */}
+                    {/* </span> */}
                     {props.dest.country.toUpperCase()}
                     <span><a href={props.dest.location} className="maps--text">View on Google Maps</a></span>
                 </div>
@@ -25,6 +30,7 @@ export default function TravelCard(props)
                 <p className="card--content">
                     {props.dest.content}
                 </p>
+                <hr/>
             </div>
         </div>
     )
