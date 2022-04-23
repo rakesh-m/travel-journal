@@ -7,7 +7,7 @@ function importAll(r)
     return images;
 }
 
-const images = importAll(require.context('../images', false, /\.(png|jpg|svg)$/))
+const images = importAll(require.context('../images', false, /\.(png|jpe?g|svg)$/))
 
 console.log(JSON.stringify(images));
 
@@ -23,7 +23,7 @@ export default function TravelCard(props)
                         {/* <img src={location} alt='Location'/> */}
                     {/* </span> */}
                     {props.dest.country.toUpperCase()}
-                    <span><a href={props.dest.location} className="maps--text">View on Google Maps</a></span>
+                    <span><a href={props.dest.location} target='_blank' className="maps--text">View on Google Maps</a></span>
                 </div>
                 <h1>{props.dest.title}</h1>
                 <h3>{props.dest.start_date} - {props.dest.end_date}</h3>
