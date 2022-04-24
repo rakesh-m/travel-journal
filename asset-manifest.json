@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/travel-journal/static/css/main.736e8442.css",
-    "main.js": "/travel-journal/static/js/main.473512d7.js",
+    "main.js": "/travel-journal/static/js/main.ab8afd20.js",
     "static/media/collosseum.jpeg": "/travel-journal/static/media/collosseum.707f17b76da4c7650fb7.jpeg",
     "static/media/rishikesh.jpg": "/travel-journal/static/media/rishikesh.e777c3456da4660f6d9a.jpg",
     "static/media/tajmahal.jpeg": "/travel-journal/static/media/tajmahal.91b249365bd545fa9361.jpeg",
-    "static/media/location.svg": "/travel-journal/static/media/location.0e6a4e070d723d2816660fd5611ba545.svg",
+    "static/media/location.svg": "/travel-journal/static/media/location.0e6a4e070d723d281666.svg",
     "static/media/globe.svg": "/travel-journal/static/media/globe.10ddb4ca94ecf3a9f9b4a03e41ebeb6e.svg",
     "index.html": "/travel-journal/index.html",
     "main.736e8442.css.map": "/travel-journal/static/css/main.736e8442.css.map",
-    "main.473512d7.js.map": "/travel-journal/static/js/main.473512d7.js.map"
+    "main.ab8afd20.js.map": "/travel-journal/static/js/main.ab8afd20.js.map"
   },
   "entrypoints": [
     "static/css/main.736e8442.css",
-    "static/js/main.473512d7.js"
+    "static/js/main.ab8afd20.js"
   ]
 }
