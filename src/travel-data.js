@@ -6,7 +6,7 @@ export default [
         start_date: '05 Oct, 2016',
         end_date: '08 Oct, 2016',
         location: 'https://goo.gl/maps/xUSKCnaRztFU7b4x5',
-        content: `The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the 20th century's most famous and distinctive buildings`
+        content: `Clean blue water on the banks of the Ganges in Rishikesh. The city, famous for the visit by the English rock band The Beatles, is one of the holiest places for Hindus and is on the banks of the Ganges.`
     },
     {
         title: 'Taj Mahal',
@@ -15,7 +15,7 @@ export default [
         start_date: '23 Jan, 2016',
         end_date: '26 Jan, 2016',
         location: 'https://goo.gl/maps/jx7H7jAePVfvijzd6',
-        content: `The Taj Mahal is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the 20th century's most famous and distinctive buildings`
+        content: `The monument of eternal love, Taj Mahal, needs no introduction. Situated in the city of Agra, near Delhi, this mausoleum is probably the most visited attraction in India and one of the seven modern wonders of the world.`
     },
     {
         country: 'Italy',
@@ -24,6 +24,6 @@ export default [
         start_date: '01 May, 2019',
         end_date: '03 May, 2019',
         location: 'https://goo.gl/maps/VV6TkK71FERpEbqVA',
-        content: `The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the 20th century's most famous and distinctive buildings`
+        content: `The Colosseum is an amphitheatre in Rome which used to used for gladiator fights, executions, and animal hunts, among others.`
     }
 ]

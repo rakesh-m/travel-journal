@@ -15,11 +15,13 @@ export default function TravelCard(props)
 {
     return (
         <div className="travel--card">
-            <img src={images[props.dest.photo]} alt={props.dest.photo}/>
+            <div>
+                <img src={images[props.dest.photo]} alt={props.dest.photo}/>
+            </div>
             <div className="card--data">
                 <div className="card--country">
                     <span>
-                        {/* <img src={location} alt='Location' className='pin'/> */}
+                        <img src={location} alt='Location' id='pin'/>
                     </span>
                     {props.dest.country.toUpperCase()}
                     <span><a href={props.dest.location} target='_blank' className="maps--text">View on Google Maps</a></span>

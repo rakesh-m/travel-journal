@@ -50,12 +50,6 @@ nav img {
     border-bottom: 1px solid #F5F5F5;
 }
 
-.pin {
-    width: 7px;
-    height: 9px;
-    overflow: hidden;
-}
-
 .card--country {
     font-size: 0.6em;
     letter-spacing: 0.3em;
@@ -66,6 +60,13 @@ nav img {
     width: 8rem;
     height: 10.5rem;
     object-fit: cover;
+}
+
+#pin {
+    width: 7px;
+    height: 9px;
+    overflow: hidden;
+    margin-right: 0.25rem;
 }
 
 .card--data {
@@ -96,7 +97,7 @@ nav img {
 
 .card--content {
     overflow: hidden;
-    max-height: 4em;
+    max-height: 4.5em;
     overflow: scroll;
 }
 
