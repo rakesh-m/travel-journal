@@ -25,5 +25,14 @@ export default [
         end_date: '03 May, 2019',
         location: 'https://goo.gl/maps/VV6TkK71FERpEbqVA',
         content: `The Colosseum is an amphitheatre in Rome which used to used for gladiator fights, executions, and animal hunts, among others.`
+    },
+    {
+        country: 'France',
+        photo: 'eiffel.jpeg',
+        title: 'Eiffel Tower',
+        start_date: '04 May, 2019',
+        end_date: '06 May, 2019',
+        location: 'https://goo.gl/maps/MbvW4pZazRK2asfo8',
+        content: `The Eiffel Tower is the most visted tourist attraction in the world. It offers a breathtaking view of the city of Paris and the hourly light show is an unmissable sight.`
     }
 ]
